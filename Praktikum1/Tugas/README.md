@@ -1,4 +1,4 @@
-<h1>Laporan Tugas Pertemuan 2 Praktikum Desain Web A</h1>
+<h1>Laporan Tugas Pertemuan 1 Praktikum Desain Web A</h1>
 
 <h1>Studi Kasus :</h1>
 <p>Seorang mahasiswa ingin membuat halaman profil digital sederhana untuk diperkenalkan pada kegiatan
