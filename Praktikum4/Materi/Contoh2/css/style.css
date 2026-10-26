@@ -1,0 +1,40 @@
+/* =============================
+============================= */
+@media (max-width: 768px) {
+header .container {
+flex-direction: column; }
+nav {
+margin-top: 15px; }
+nav a {
+margin: 0 8px;
+}
+.hero-content {
+flex-direction: column-reverse;
+text-align: center;
+}
+.hero-text,
+.hero-image {
+width: 100%;
+}
+.project-card {
+width: calc(50% - 10px);
+}
+}
+/* =============================
+Responsive Smartphone
+============================= */
+@media (max-width: 480px) {
+nav a {
+display: block;
+margin: 8px 0;
+}
+.hero-text h2 {
+font-size: 28px;
+}
+.project-card {
+width: 100%;
+}
+.container {
+width: 92%;
+}
+}
