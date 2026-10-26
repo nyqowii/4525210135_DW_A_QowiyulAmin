@@ -1,22 +1,107 @@
+/* Pengaturan dasar halaman */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #ffffff;
+    color: #000000;
     margin: 30px;
+    padding: 0;
 }
-h1 {
-    color: darkblue;
+
+/* Bagian judul halaman */
+header {
+    margin-bottom: 10px;
 }
-h2 {
-    color: darkgreen;
+
+header h1 {
+    font-size: 24px;
+    color: navy;
+    margin-bottom: 12px;
 }
-img {
-    border-radius: 10px;
+
+/* Navigasi */
+nav {
+    font-size: 12px;
+    margin-bottom: 10px;
 }
-.daftar-keahlian {
-    line-height: 1.8;
-}
-a {
+
+nav a {
+    color: blue;
     text-decoration: none;
 }
-a:hover {
+
+nav a:hover {
     text-decoration: underline;
+}
+
+/* Garis pembatas */
+hr {
+    border: none;
+    border-top: 1px solid #cccccc;
+    margin: 10px 0;
+}
+
+/* Bagian konten */
+section {
+    margin-bottom: 10px;
+}
+
+/* Judul setiap bagian */
+section h2 {
+    font-size: 18px;
+    color: blue;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* Gambar organisasi */
+section img {
+    display: block;
+    width: 100px;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Paragraf */
+p {
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+/* Daftar program keahlian */
+.daftar-keahlian {
+    padding-left: 30px;
+    line-height: 1.6;
+}
+
+/* Daftar alur pendaftaran */
+section ol {
+    padding-left: 30px;
+    line-height: 1.2;
+}
+
+/* Link website dan email */
+section a {
+    color: blue;
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* Tampilan layar kecil */
+@media screen and (max-width: 600px) {
+    body {
+        margin: 15px;
+    }
+
+    header h1 {
+        font-size: 21px;
+    }
+
+    section h2 {
+        font-size: 16px;
+    }
 }
