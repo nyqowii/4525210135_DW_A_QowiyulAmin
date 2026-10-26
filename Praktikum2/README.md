@@ -1,5 +1,4 @@
 <h1>Laporan Tugas Pertemuan 2 Praktikum Desain Web A</h1>
-<h2>4525210135_Qowiyul Amin</h2>
 
 <h1>Studi Kasus :</h1>
 <p>Sebuah sekolah membutuhkan halaman profil statis yang mampu menyajikan identitas, foto gedung, program
