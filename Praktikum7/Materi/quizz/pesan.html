@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+       content="width=device-width, initial-scale=1.0">
+  <title>Pesan Makanan</title>
+  <link rel="stylesheet"
+       href="css_pesan/style.css">
+</head>
+<body>
+  <main class="container">
+     <section class="registration-card">
+        <div class="form-header">
+           <span class="label">
+             Form
+           </span>
+           <h1>
+              Pesan Makanan
+           </h1>
+           <p>
+              Silakan isi pilihan makanan Anda.
+           </p>
+        </div>
+        <!--
+           Method POST digunakan karena
+           data pendaftaran dikirim melalui
+           body HTTP request.
+        -->
+        <form
+           action="/proses-pendaftaran"
+           method="post">
+           <!-- Nama -->
+           <div class="form-group">
+              <label for="nama">
+                 Nama Pelanggan
+              </label>
+              <input
+                 type="text"
+                 id="nama"
+                 name="nama"
+                 placeholder="Masukkan nama lengkap"
+                 required>
+           </div>
+           <!-- Email -->
+           <div class="form-group">
+              <label for="email">
+                 Email Pelanggan
+              </label>
+              <input
+                 type="email"
+                 id="email"
+                 name="email"
+                 placeholder="nama@email.com"
+                 required>
+           </div>
+           <!-- Password -->
+           <div class="form-group">
+              <label for="password">
+                 No Telepon
+              </label>
+              <input
+                 type="telepon"
+                 id="telepon"
+                 name="password"
+                 placeholder="Masukkan No Telepon"
+                 required>
+           </div>
+           <!-- Umur -->
+           <div class="form-group">
+              <label for="menu">
+                 Menu Pilihan
+              </label>
+              <select
+                 id="menu"
+                 name="Menu_makanan"
+                 required>
+                 <option value="">
+                    -- Menu Makanan --
+                 </option>
+                 <option value="Rendang">
+                    Rendang
+                 </option>
+                 <option value="Tunjang">
+                    Tunjang
+                 </option>
+                 <option value="Dendeng_Batokok">
+                    Dendeng Batokok
+                 </option>
+                 <option value="Ayam_bakar">
+                    Ayam Bakar
+                 </option>
+              </select>
+           </div>
+           <!-- Metode Pembayaran -->
+           <div class="form-group">
+              <label for="program-studi">
+                 Metode Pembayaran
+              </label>
+              <select
+                 id="pembayaran"
+                 name="metode_pembayaran"
+                 required>
+                 <option value="">
+                    -- Pilih Metode Pembayaran --
+                 </option>
+                 <option value="cash">
+                    Cash
+                 </option>
+                 <option value="debit">
+                    Debit
+                 </option>
+                 <option value="qris">
+                    Qris
+                 </option>
+              </select>
+           </div>
+           <!-- Catatan Tambahan -->
+           <div class="form-group">
+              <label for="catatan">
+                 Catatan Tambahan
+              </label>
+              <textarea
+                 id="catatan"
+                 name="catatan"
+                 rows="5"
+                 placeholder="Contoh: Gula Sedikit">
+              </textarea>
+           </div>
+           <!-- Button -->
+           <div class="button-group">
+              <button
+                 type="submit"
+                 class="btn btn-primary">
+                 Pesan
+              </button>
+              <button
+                 type="button"
+                 class="btn btn-secondary">
+                 Kembali
+              </button>
+           </div>
+        </form>
+     </section>
+  </main>
+</body>
+</html>

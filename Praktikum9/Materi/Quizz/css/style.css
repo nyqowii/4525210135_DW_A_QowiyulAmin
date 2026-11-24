@@ -1,0 +1,28 @@
+/* style.css - dipanggil SETELAH Bootstrap agar bisa menimpa tampilan bawaan */
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Header */
+.progres-pohon {
+  height: 0.6rem;
+}
+
+.progres-pohon .progress-bar {
+  width: 64%;
+}
+
+/* Kartu statistik */
+.kartu-statistik {
+  transition: transform 0.15s ease;
+}
+
+.kartu-statistik:hover {
+  transform: translateY(-3px);
+}
+
+/* Tabel */
+.table thead th {
+  white-space: nowrap;
+}
