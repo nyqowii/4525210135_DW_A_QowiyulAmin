@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harmoni Senja Fest 2026</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#beranda">
+          <span class="brand-badge">HS</span> Harmoni Senja Fest
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNav"
+          aria-controls="mainNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#beranda">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#lineup">Line-Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tiket">Tiket</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="beranda" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <span class="section-tag">Festival Musik Tahunan</span>
+            <h1>Harmoni Senja Fest 2026</h1>
+            <p class="lead">
+              Satu malam penuh energi, lagu-lagu favorit, dan momen tak terlupakan
+              di bawah langit senja bersama teman-teman.
+            </p>
+
+            <div class="hero-meta">
+              <div>
+                <strong>24 Oktober 2026</strong>
+                <span>Open gate 16.00 WIB</span>
+              </div>
+              <div>
+                <strong>Lapangan Merdeka</strong>
+                <span>Bandung, Indonesia</span>
+              </div>
+            </div>
+
+            <div class="hero-actions">
+              <a href="#tiket" class="btn btn-primary btn-lg">Beli Tiket Sekarang</a>
+              <a href="#lineup" class="btn btn-outline-light btn-lg">Lihat Line-Up</a>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="hero-image">
+              <img
+                src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1200&q=80"
+                alt="Panggung musik festival"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ALERT -->
+    <section class="container">
+      <div class="alert alert-warning alert-dismissible fade show custom-alert" role="alert">
+        <strong>Early Bird Alert!</strong>
+        Kuota tiket Early Bird tersisa 250 kursi. Segera booking sebelum 30 September 2026.
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+          aria-label="Close"
+        ></button>
+      </div>
+    </section>
+
+    <!-- LINE-UP / TICKET -->
+    <section id="lineup" class="container section-spacing">
+      <div class="section-heading">
+        <span class="section-tag">Line-Up</span>
+        <h2>Pilih jenis tiket yang cocok untukmu</h2>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="ticket-card">
+            <span class="badge badge-primary">Festival</span>
+            <h3>Festival Pass</h3>
+            <div class="price">Rp 199.000</div>
+            <ul>
+              <li>Akses area utama festival</li>
+              <li>Semua penampilan utama</li>
+              <li>Food court area</li>
+            </ul>
+            <button
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#ticketModal"
+            >
+              Beli Tiket
+            </button>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="ticket-card">
+            <span class="badge badge-success">VIP</span>
+            <h3>VIP Lounge</h3>
+            <div class="price">Rp 499.000</div>
+            <ul>
+              <li>Spot terbaik di depan panggung</li>
+              <li>Akses VIP lounge</li>
+              <li>Minuman gratis</li>
+            </ul>
+            <button
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#ticketModal"
+            >
+              Beli Tiket
+            </button>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="ticket-card">
+            <span class="badge badge-pink">VVIP</span>
+            <h3>VVIP Gold</h3>
+            <div class="price">Rp 899.000</div>
+            <ul>
+              <li>Meet & greet artis</li>
+              <li>Area premium paling depan</li>
+              <li>Souvenir eksklusif</li>
+            </ul>
+            <button
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#ticketModal"
+            >
+              Beli Tiket
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIKET INFO -->
+    <section id="tiket" class="container section-spacing">
+      <div class="section-heading">
+        <span class="section-tag">Tiket</span>
+        <h2>Jadwal dan ketentuan masuk</h2>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="info-panel">
+            <h3>Jadwal Event</h3>
+            <p><strong>Hari:</strong> Sabtu, 24 Oktober 2026</p>
+            <p><strong>Open Gate:</strong> 16.00 WIB</p>
+            <p><strong>Mulai Musik:</strong> 18.00 WIB</p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="info-panel">
+            <h3>Persyaratan Masuk</h3>
+            <ul>
+              <li>Wajib membawa tiket saat masuk area konser</li>
+              <li>Usia di bawah 12 tahun harus didampingi orang tua</li>
+              <li>Dilarang membawa makanan/minuman dari luar</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="kontak" class="container section-spacing">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-5">
+          <div class="section-heading text-start">
+            <span class="section-tag">Kontak</span>
+            <h2>Hubungi kami</h2>
+          </div>
+
+          <p class="contact-text">
+            Butuh informasi lebih lanjut mengenai festival, kerja sama, atau
+            pertanyaan seputar acara? Kirimkan pesan Anda di form sebelah.
+          </p>
+
+          <div class="contact-list">
+            <p>Email: hello@harmonisenjafest.com</p>
+            <p>Instagram: @harmonisenjafest</p>
+            <p>WhatsApp: +62 812-3456-7890</p>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <form class="contact-form">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control" id="nama" />
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+
+            <div class="mb-3">
+              <label for="pesan" class="form-label">Pertanyaan</label>
+              <textarea
+                class="form-control"
+                id="pesan"
+                rows="5"
+                placeholder="Tuliskan pertanyaan Anda..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg">Kirim</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="ticketModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Syarat & Ketentuan Masuk</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="modal-body">
+            <ul class="modal-list">
+              <li>Setiap penonton wajib menunjukkan tiket yang valid.</li>
+              <li>Usia di bawah 12 tahun harus didampingi orang dewasa.</li>
+              <li>Dilarang membawa makanan atau minuman dari luar.</li>
+              <li>Ikuti semua instruksi petugas keamanan.</li>
+              <li>Festival hanya untuk penonton dengan tiket sesuai kategori.</li>
+            </ul>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+              Tutup
+            </button>
+            <button type="button" class="btn btn-primary">Konfirmasi</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+        <p class="mb-0">&copy; 2026 Harmoni Senja Fest. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#">Instagram</a>
+          <a href="#">YouTube</a>
+          <a href="#">TikTok</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
